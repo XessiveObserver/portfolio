@@ -1,10 +1,17 @@
 import React from 'react'
 import Link from 'next/link'
+import { NavBar } from './NavBarIndexStyles'
 
 export const NavBarIndex = () => {
     return (
-        <>
+        <NavBar>
+
             <ul>
+                <li>
+                    <Link href="/">
+                        <a><p>Logo</p></a>
+                    </Link>
+                </li>
                 <li>
                     <Link href="/">
                         <a>Home</a>
@@ -21,6 +28,6 @@ export const NavBarIndex = () => {
                     </Link>
                 </li>
             </ul>
-        </>
+        </NavBar>
     )
 }

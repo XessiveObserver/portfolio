@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Footer from '../components/Footer/Footer'
 import { NavBarIndex } from '../components/Nav/NavBarIndex'
 
 
@@ -11,6 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavBarIndex />
+      <Footer />
     </div>
   )
 }
