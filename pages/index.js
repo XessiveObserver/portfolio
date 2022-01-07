@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Footer from '../components/Footer/Footer'
+import { IndexLayout } from '../components/HomPageLayout/IndexLayout'
+import { Services } from '../components/HomPageLayout/Services'
 import { NavBarIndex } from '../components/Nav/NavBarIndex'
 
 
@@ -12,6 +14,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavBarIndex />
+      <IndexLayout />
+      <Services />
       <Footer />
     </div>
   )

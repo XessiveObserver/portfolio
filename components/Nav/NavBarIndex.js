@@ -9,7 +9,7 @@ export const NavBarIndex = () => {
             <ul>
                 <li>
                     <Link href="/">
-                        <a><p>Logo</p></a>
+                        <a><p>Xessive Observer</p></a>
                     </Link>
                 </li>
                 <li>
