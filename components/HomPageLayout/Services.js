@@ -12,6 +12,7 @@ const ServicesContainer = styled.div`
     flex-wrap: wrap;
     max-width: 100%;
     margin: 3em;
+    background-color: #eaecf1;
     border-radius: 0.3em;
     align-items: center;
     @media (min-width: 1024px) {
