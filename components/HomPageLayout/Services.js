@@ -12,7 +12,6 @@ const ServicesContainer = styled.div`
     flex-wrap: wrap;
     max-width: 100%;
     margin: 3em;
-    background-color: #eaecf1;
     border-radius: 0.3em;
     align-items: center;
     @media (min-width: 1024px) {
@@ -25,9 +24,9 @@ const ServicesContainer = styled.div`
 const Service = styled.div`
     flex-basis: 20%;
     margin: 2em;
-    border: 0.1em solid grey;
     border-radius: 0.8em;
     cursor: pointer;
+    background-color: #eaecf1;
 `;
 
 const ServiceName = styled.div`
@@ -38,9 +37,10 @@ const ServiceName = styled.div`
 
 const ServiceImage = styled.div`
 margin-top: 1em;
-opacity: 0.8;
+
     :Image{
         border-radius: 0.5em;
+        margin: 1em;
     }
 `;
 
