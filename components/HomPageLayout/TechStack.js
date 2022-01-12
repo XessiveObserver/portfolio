@@ -25,8 +25,8 @@ const Stack = styled.div`
         color: #557555cc;
     }
     h2{
-        text-align: center;
         word-break: break-all;
+        font-size: 2em;
         color: #2f2283;
         font-family: -apple-system,
          BlinkMacSystemFont,
@@ -43,10 +43,10 @@ const Stack = styled.div`
     }
     li{
         list-style: none;
-        text-align: center;
         font-weight: bold;
-        word-spacing: 0.8em;
-        letter-spacing: 0.3em;
+        font-size: 1.3em;
+        word-spacing: 0.3em;
+        letter-spacing: 0.1em;
         color: #2f2283;
         &:hover{
             transform: scale(1.1);
