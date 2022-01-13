@@ -36,11 +36,10 @@ const ServiceName = styled.div`
 `;
 
 const ServiceImage = styled.div`
-margin-top: 1em;
+margin: 0.3em;
 
-    :Image{
-        border-radius: 0.5em;
-        margin: 1em;
+Image{
+        border-radius: 0.8em;
     }
 `;
 

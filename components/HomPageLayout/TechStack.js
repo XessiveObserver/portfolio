@@ -14,6 +14,7 @@ const TechStackContainer = styled.div`
 
 const Stack = styled.div`
     flex-basis: 40%;
+    border: 0.1em darkcyan solid;
     border-radius: 0.5em;
     background-color: #eef2f5;
     margin: 0.3em;
@@ -26,6 +27,8 @@ const Stack = styled.div`
     }
     h2{
         word-break: break-all;
+        letter-spacing: 0.2em;
+        text-align: center;
         font-size: 2em;
         color: #2f2283;
         font-family: -apple-system,
@@ -42,7 +45,9 @@ const Stack = styled.div`
         }
     }
     li{
-        list-style: none;
+        margin: 1em;
+        text-align: center;
+        list-style: upper-roman;
         font-weight: bold;
         font-size: 1.3em;
         word-spacing: 0.3em;
