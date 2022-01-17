@@ -22,7 +22,6 @@ const ServicesContainer = styled.div`
 
 
 const Service = styled.div`
-    flex-basis: 20%;
     margin: 2em;
     border-radius: 0.8em;
     cursor: pointer;

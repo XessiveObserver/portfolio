@@ -13,35 +13,28 @@ const TechStackContainer = styled.div`
 `;
 
 const Stack = styled.div`
-    flex-basis: 40%;
-    border: 0.1em darkcyan solid;
+    flex-basis: 60%;
     border-radius: 0.5em;
-    background-color: #eef2f5;
     margin: 0.3em;
     cursor: pointer;
     transition: all .5s ease;
     :hover{
         transform: scale(1.0);
-        background-color: #adc5b3;
-        color: #557555cc;
+
     }
     h2{
+        font-weight: bolder;
         word-break: break-all;
         letter-spacing: 0.2em;
         text-align: center;
         font-size: 2em;
         color: #2f2283;
-        font-family: -apple-system,
-         BlinkMacSystemFont,
-          'Segoe UI', Roboto
-          , Oxygen, Ubuntu,
-           Cantarell, 'Open Sans'
-           , 'Helvetica Neue', 
-           sans-serif;
-        margin-left: 1em;
+        background-color: #ebf2f3;
+        margin: 1em;
+        border-radius: 0.3em;
         &:hover{
             transform: scale(1.1);
-            color: white;
+            color: #277e81;
         }
     }
     li{
@@ -55,7 +48,7 @@ const Stack = styled.div`
         color: #2f2283;
         &:hover{
             transform: scale(1.1);
-            color: white;
+            color: #277e81;
         }
     }
     

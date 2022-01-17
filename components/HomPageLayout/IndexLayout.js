@@ -17,6 +17,7 @@ const LeftContent = styled.div`
     margin: 3em;
 
     h1{
+        text-align: left;
         font-size: 4em;
         color: white;
         font-family: Arial, Helvetica, sans-serif;

@@ -2,9 +2,7 @@ import Head from 'next/head'
 import Footer from '../components/Footer/Footer'
 import { IndexLayout } from '../components/HomPageLayout/IndexLayout'
 import { Services } from '../components/HomPageLayout/Services'
-import ServicesHeading from '../components/HomPageLayout/ServicesHeading'
 import TechStack from '../components/HomPageLayout/TechStack'
-import { TechStackHeading } from '../components/HomPageLayout/TechStackHeading'
 import { NavBarIndex } from '../components/Nav/NavBarIndex'
 
 
@@ -18,9 +16,9 @@ export default function Home() {
       </Head>
       <NavBarIndex />
       <IndexLayout />
-      <ServicesHeading />
+      <h1>Services</h1>
       <Services />
-      <TechStackHeading />
+      <h1>Tech Stack</h1>
       <TechStack />
       <Footer />
     </div>
