@@ -12,7 +12,7 @@ const AboutHeroContainer = styled.div`
   }
 `;
 const AboutLeftHero = styled.div`
-vertical-align: middle;
+    vertical-align: middle;
      h1{
         text-align: left;
         color: white;

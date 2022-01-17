@@ -5,7 +5,7 @@ const TechStackContainer = styled.div`
     display: flex;
     flex-wrap: wrap;
     max-width: 100%;
-    
+    background-color: #194e4e;
     align-items: center;
     @media (min-width: 1024px) {
     flex-wrap: nowrap;
@@ -27,8 +27,8 @@ const Stack = styled.div`
         word-break: break-all;
         letter-spacing: 0.2em;
         text-align: center;
-        font-size: 2em;
-        color: #2f2283;
+        font-size: 1.3em;
+        color: #090427;
         background-color: #ebf2f3;
         margin: 1em;
         border-radius: 0.3em;
@@ -42,10 +42,10 @@ const Stack = styled.div`
         text-align: center;
         list-style: upper-roman;
         font-weight: bold;
-        font-size: 1.3em;
+        font-size: 1em;
         word-spacing: 0.3em;
         letter-spacing: 0.1em;
-        color: #2f2283;
+        color: #ccc9e4;
         &:hover{
             transform: scale(1.1);
             color: #277e81;
