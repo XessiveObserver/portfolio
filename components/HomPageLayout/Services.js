@@ -23,6 +23,7 @@ const ServicesContainer = styled.div`
 
 const Service = styled.div`
     margin: 2em;
+    text-align: center;
     border-radius: 0.8em;
     cursor: pointer;
     background-color: #eaecf1;

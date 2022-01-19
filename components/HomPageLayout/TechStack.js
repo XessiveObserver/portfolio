@@ -5,7 +5,7 @@ const TechStackContainer = styled.div`
     display: flex;
     flex-wrap: wrap;
     max-width: 100%;
-    background-color: #194e4e;
+    background-color: #191d4e;
     align-items: center;
     @media (min-width: 1024px) {
     flex-wrap: nowrap;
@@ -16,6 +16,7 @@ const Stack = styled.div`
     flex-basis: 60%;
     border-radius: 0.5em;
     margin: 0.3em;
+    text-align: center;
     cursor: pointer;
     transition: all .5s ease;
     :hover{
