@@ -22,11 +22,6 @@ export const NavBarIndex = () => {
                         <a>About</a>
                     </Link>
                 </li>
-                <li>
-                    <Link href="/Portfolio/PortfolioIndex">
-                        <a>Portfolio</a>
-                    </Link>
-                </li>
             </ul>
         </NavBar>
     )

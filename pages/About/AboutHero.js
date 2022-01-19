@@ -5,7 +5,7 @@ const AboutHeroContainer = styled.div`
     background-color: #080d57;
     display: flex;
     flex-wrap: wrap;
-    height: 50vh;
+    height: auto;
     max-width: 100%;
     @media (min-width: 1024px) {
     flex-wrap: nowrap;
@@ -26,7 +26,7 @@ const AboutLeftHero = styled.div`
         text-align: left;
         color: #b3f5dc;
         line-height: 2em;
-        font-size: 1em;
+        font-size: 1.5em;
     }
     em{
         color: darkgreen;
