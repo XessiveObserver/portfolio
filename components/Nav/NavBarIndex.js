@@ -22,6 +22,7 @@ export const NavBarIndex = () => {
                         <a>About</a>
                     </Link>
                 </li>
+        
             </ul>
         </NavBar>
     )
