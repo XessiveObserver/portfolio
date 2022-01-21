@@ -17,7 +17,7 @@ const ProjectSocialContainer = styled.div`
 const ProjectContainer = styled.div`
     flex-basis: 50%;
     display: inline-flexbox;
-    margin: 3em;
+    margin: 2em;
     border-radius: 0.5em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
      0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -25,7 +25,7 @@ const ProjectContainer = styled.div`
 
 const SocialContainer = styled.div`
     flex-basis: 50%;
-    display: inline-flexbox;
+    display: inline-flex;
     margin: 3em;
     border-radius: 0.5em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
@@ -33,28 +33,28 @@ const SocialContainer = styled.div`
 `;
 const Media = styled.div`
     text-align: center;
-    margin: 2em;
+    margin: 1.8em;
 `;
 const MediaName = styled.div`
     font-weight: bolder;
     font-size: 1.5em;
     color: darkgreen;
     text-align: center;
-    margin: 2em;
+    margin: 1.5em;
 `;
 
 
 const Project = styled.div`
-    margin: 2em;
+    margin: 1.5em;
     text-align: center;
     align-items: center;
 `;
 const ProjectName = styled.h2`
     color: #020214;
-    margin: 2em;
+    margin: 1.5em;
 `;
 const ProjectImage = styled.div`
-    margin: 2em;
+    margin: 1.5em;
     &:Image{
         border-radius: 0.5em;
     }
