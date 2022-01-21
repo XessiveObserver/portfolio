@@ -37,11 +37,11 @@ const LeftContent = styled.div`
         cursor: pointer;
         color: white;
         font-size: 1em;
-        background-color: #105288;
+        background-color: #7a2c08;
         border-radius: 0.3em;
         border: none;
         padding: 0.3em;
-        text-transform: uppercase;
+        text-transform: capitalize;
         font-weight: bolder;
         text-decoration: solid;
     }
@@ -68,7 +68,7 @@ export const IndexLayout = () => {
             </h3>
             <button>
                 <Link href="/About/AboutIndex">
-                    <a> Get In Touch.</a>
+                    <a> Get In Touch !</a>
                 </Link>
             </button>
             </LeftContent>

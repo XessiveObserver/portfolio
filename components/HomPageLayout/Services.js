@@ -24,23 +24,21 @@ const ServicesContainer = styled.div`
 const Service = styled.div`
     margin: 2em;
     text-align: center;
-    border-radius: 0.8em;
+    border-radius: 0.5em;
     cursor: pointer;
-    background-color: #eaecf1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+     0 6px 20px 0 rgba(0, 0, 0, 0.19);
 `;
 
 const ServiceName = styled.div`
     color: #2f2283;
     font-weight: bolder;
     text-align: center;
+    margin: 1em;
 `;
 
 const ServiceImage = styled.div`
-margin: 0.3em;
-
-Image{
-        border-radius: 0.8em;
-    }
+    margin: 0.3em;
 `;
 
 

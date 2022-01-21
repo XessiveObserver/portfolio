@@ -26,7 +26,7 @@ const AboutLeftHero = styled.div`
         text-align: left;
         color: #b3f5dc;
         line-height: 2em;
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
     em{
         color: darkgreen;
