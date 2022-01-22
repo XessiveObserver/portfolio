@@ -8,13 +8,13 @@ import devops from './IndexImages/DevOps.jpg'
 import webops from './IndexImages/WebOps.jpg'
 
 const ServicesContainer = styled.div`
-    display: flext;
+    display: flex;
     flex-wrap: wrap;
     max-width: 100%;
     margin: 3em;
     border-radius: 0.3em;
     align-items: center;
-    @media (min-width: 1024px) {
+    @media (min-width: 1920px) {
     flex-wrap: nowrap;
   }
   
@@ -22,6 +22,7 @@ const ServicesContainer = styled.div`
 
 
 const Service = styled.div`
+flex-basis: 30%;
     margin: 2em;
     text-align: center;
     border-radius: 0.5em;
