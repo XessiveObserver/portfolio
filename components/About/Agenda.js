@@ -50,7 +50,7 @@ const MissionStatement = styled.div`
 `;
 
 export const Agenda = () => {
-    return <AgendaContainer>
+    return (<AgendaContainer>
         <VisionStatement>
             <h2>Vision</h2>
             <p>I consistently work on our development <br />
@@ -70,5 +70,5 @@ export const Agenda = () => {
         </MissionStatement>
 
 
-    </AgendaContainer>;
+    </AgendaContainer>)
 };

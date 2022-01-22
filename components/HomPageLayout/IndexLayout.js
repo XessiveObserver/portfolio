@@ -40,7 +40,7 @@ const LeftContent = styled.div`
         background-color: #7a2c08;
         border-radius: 0.3em;
         border: none;
-        padding: 0.3em;
+        padding: 0.4em;
         text-transform: capitalize;
         font-weight: bolder;
         text-decoration: solid;
