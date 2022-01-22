@@ -14,7 +14,7 @@ const ServicesContainer = styled.div`
     margin: 3em;
     border-radius: 0.3em;
     align-items: center;
-    @media (min-width: 1920px) {
+    @media (min-width: 1024px) {
     flex-wrap: nowrap;
   }
   
@@ -22,7 +22,6 @@ const ServicesContainer = styled.div`
 
 
 const Service = styled.div`
-flex-basis: 30%;
     margin: 2em;
     text-align: center;
     border-radius: 0.5em;
