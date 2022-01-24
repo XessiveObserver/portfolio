@@ -22,6 +22,8 @@ const ServicesContainer = styled.div`
 
 
 const Service = styled.div`
+    display: flex;
+    flex-direction: column;
     margin: 2em;
     text-align: center;
     border-radius: 0.5em;

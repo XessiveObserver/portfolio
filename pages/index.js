@@ -16,9 +16,9 @@ export default function Home() {
       </Head>
       <NavBarIndex />
       <IndexLayout />
-      <h1>Services</h1>
+      
       <Services />
-      <h1>Tech Stack</h1>
+      
       <TechStack />
       <Footer />
     </div>

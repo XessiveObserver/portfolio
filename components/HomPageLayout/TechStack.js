@@ -13,6 +13,8 @@ const TechStackContainer = styled.div`
 `;
 
 const Stack = styled.div`
+    display: flex;
+    flex-direction: column;
     flex-basis: 60%;
     border-radius: 0.5em;
     margin: 0.3em;
