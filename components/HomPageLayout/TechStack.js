@@ -4,14 +4,12 @@ import styled from 'styled-components'
 const TechStackContainer = styled.div`
     display: flex;
     flex-wrap: wrap;
-    max-width: 100%;
     background-color: #191d4e;
-    align-items: center;
+    justify-content: center;
     
 `;
 
 const Stack = styled.div`
-    flex: 1;
     border-radius: 0.5em;
     margin: 0.3em;
     text-align: center;

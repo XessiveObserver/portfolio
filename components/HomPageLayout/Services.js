@@ -11,13 +11,11 @@ const ServicesContainer = styled.div`
     display: flex;
     flex-wrap: wrap;
     border-radius: 0.3em;
-    align-items: center;
   
 `;
 
 
 const Service = styled.div`
-    flex: 1;
     margin: 2em;
     text-align: center;
     border-radius: 0.5em;
