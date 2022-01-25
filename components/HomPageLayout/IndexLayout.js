@@ -9,7 +9,7 @@ const MiniBio = styled.div`
 
 `;
 const LeftContent = styled.div`
-    flex-basis: 60%;
+    flex: 1;
     margin: 3em;
 
     h1{
@@ -44,7 +44,7 @@ const LeftContent = styled.div`
 `;
 
 const RightContent = styled.div`
-
+    flex: 1;
 `;
 
 export const IndexLayout = () => {
