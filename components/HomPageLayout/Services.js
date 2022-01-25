@@ -10,20 +10,14 @@ import webops from './IndexImages/WebOps.jpg'
 const ServicesContainer = styled.div`
     display: flex;
     flex-wrap: wrap;
-    max-width: 100%;
-    margin: 3em;
     border-radius: 0.3em;
     align-items: center;
-    @media (min-width: 1024px) {
-    flex-wrap: nowrap;
-  }
   
 `;
 
 
 const Service = styled.div`
-    display: flex;
-    flex-direction: column;
+    flex: 1;
     margin: 2em;
     text-align: center;
     border-radius: 0.5em;

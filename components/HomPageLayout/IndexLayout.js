@@ -6,10 +6,6 @@ const MiniBio = styled.div`
     display: flex;
     flex-wrap: wrap;
     background-color: #362b7c;
-    max-width: 100%;
-    @media (min-width: 1024px) {
-    flex-wrap: nowrap;
-  }
 
 `;
 const LeftContent = styled.div`

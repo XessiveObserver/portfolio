@@ -7,15 +7,11 @@ const TechStackContainer = styled.div`
     max-width: 100%;
     background-color: #191d4e;
     align-items: center;
-    @media (min-width: 1024px) {
-    flex-wrap: nowrap;
-  }
+    
 `;
 
 const Stack = styled.div`
-    display: flex;
-    flex-direction: column;
-    flex-basis: 60%;
+    flex: 1;
     border-radius: 0.5em;
     margin: 0.3em;
     text-align: center;

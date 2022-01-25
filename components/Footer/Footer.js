@@ -3,12 +3,16 @@ import React from 'react'
 import styled from 'styled-components'
 
 const SiteFooter = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 10vh;
     background-color: #030e31;
-    border-top: 0.1em solid black;
+    
     p{
         text-align: center;
         color: whitesmoke;
+        vertical-align: middle;
     }
 `;
 

@@ -8,14 +8,10 @@ const ProjectSocialContainer = styled.div`
     display: flex;
     flex-wrap: wrap;
     max-width: 100%;
-    align-items: center;
-    @media (min-width: 1024px) {
-    flex-wrap: nowrap;
-  }
 `;
 
 const ProjectContainer = styled.div`
-    flex-basis: 50%;
+    flex: 1;
     display: inline-flex;
     margin: 2em;
     border-radius: 0.5em;
@@ -24,7 +20,7 @@ const ProjectContainer = styled.div`
 `;
 
 const SocialContainer = styled.div`
-    flex-basis: 50%;
+    flex: 1;
     display: inline-flex;
     margin: 3em;
     border-radius: 0.5em;
@@ -40,21 +36,21 @@ const MediaName = styled.div`
     font-size: 1.5em;
     color: darkgreen;
     text-align: center;
-    margin: 1.5em;
+    margin: 1em;
 `;
 
 
 const Project = styled.div`
-    margin: 1.5em;
+    margin: 1em;
     text-align: center;
     align-items: center;
 `;
 const ProjectName = styled.h2`
     color: #020214;
-    margin: 1.5em;
+    margin: 1em;
 `;
 const ProjectImage = styled.div`
-    margin: 1.5em;
+    margin: 1em;
     &:Image{
         border-radius: 0.5em;
     }
