@@ -11,6 +11,7 @@ const ServicesContainer = styled.div`
     display: flex;
     flex-wrap: wrap;
     border-radius: 0.3em;
+    justify-content: center;
   
 `;
 
