@@ -6,14 +6,11 @@ const TechStackContainer = styled.div`
     flex-wrap: wrap;
     background-color: #191d4e;
     justify-content: center;
-    @media (max-width: 500px) {
-    flex-direction: column;
-}
+ 
     
 `;
 
 const Stack = styled.div`
-    flex: 1;
     border-radius: 0.5em;
     margin: 0.3em;
     text-align: center;
