@@ -5,9 +5,8 @@ const AboutHeroContainer = styled.div`
     background-color: #080d57;
     display: flex;
     flex-wrap: wrap;
-    @media (max-width:600px) {
-        flex-direction: coulumn;
-    }
+    height: auto;
+    
 `;
 const AboutLeftHero = styled.div`
     vertical-align: middle;
