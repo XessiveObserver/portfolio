@@ -7,9 +7,9 @@ const AboutHeroContainer = styled.div`
     flex-wrap: wrap;
     height: auto;
     max-width: 100%;
-    @media (min-width: 1024px) {
-    flex-wrap: nowrap;
-  }
+    @media(max-width:600px){
+        flex-direction: coulumn;
+    }
 `;
 const AboutLeftHero = styled.div`
     vertical-align: middle;
