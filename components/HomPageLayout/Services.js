@@ -12,6 +12,9 @@ const ServicesContainer = styled.div`
     flex-wrap: wrap;
     border-radius: 0.3em;
     justify-content: center;
+    @media(max-width:600px){
+        flex-direction: coulumn;
+    }
   
 `;
 

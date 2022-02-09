@@ -6,7 +6,9 @@ const TechStackContainer = styled.div`
     flex-wrap: wrap;
     background-color: #191d4e;
     justify-content: center;
- 
+    @media(max-width:600px){
+        flex-direction: coulumn;
+    }
     
 `;
 

@@ -3,6 +3,9 @@ import styled from "styled-components";
 export const NavBar = styled.div `
     display: flex;
     flex-direction: column;
+    @media(max-width:600px){
+        flex-direction: coulumn;
+    }
     border-bottom: 0.1em solid black;
     ul{
         text-align: center;

@@ -5,7 +5,6 @@ const AgendaContainer = styled.div`
     background-color: aliceblue;
     display: flex;
     flex-wrap: wrap;
-    max-width: 100%;
 `;
 
 const VisionStatement = styled.div`

@@ -6,6 +6,9 @@ const MiniBio = styled.div`
     display: flex;
     flex-wrap: wrap;
     background-color: #362b7c;
+    @media(max-width:600px){
+        flex-direction: coulumn;
+    }
 
 `;
 const LeftContent = styled.div`
