@@ -5,9 +5,7 @@ const AboutHeroContainer = styled.div`
     background-color: #080d57;
     display: flex;
     flex-wrap: wrap;
-    height: auto;
-    max-width: 100%;
-    @media(max-width:600px){
+    @media (max-width:600px) {
         flex-direction: coulumn;
     }
 `;
