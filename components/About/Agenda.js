@@ -18,11 +18,10 @@ const VisionStatement = styled.div`
     color: darkblue;
    
      h2{
-        text-align: center;
+        margin: 1.5em;
     }
     p {
         font-size: 1.2em;
-        text-align: start;
         margin: 2em;
         
     }
@@ -38,11 +37,10 @@ const MissionStatement = styled.div`
     width: auto;
     color: darkblue;
      h2{
-        text-align: center;
+        margin: 1.5em;
     }
     p {
         font-size: 1.2em;
-        text-align: start;
         margin: 2em;
         
     }

@@ -16,7 +16,7 @@ const AboutIndex = () => {
             <NavBar />
             <AboutHero />
             <Agenda />
-           
+            <ProjectSocial />
             <Footer />
         </ContainerAbout>
     )
