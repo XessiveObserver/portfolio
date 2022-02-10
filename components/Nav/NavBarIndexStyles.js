@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
-export const NavBar = styled.div `
+export const NavBar = styled.div`
     display: flex;
     flex-direction: column;
     border-bottom: 0.1em solid black;
+    align-items: center;
     ul{
         text-align: center;
         vertical-align: middle;
@@ -12,21 +13,11 @@ export const NavBar = styled.div `
         vertical-align: middle;
         text-decoration: none;
         list-style: none;
-        display: inline-block;
+        display: inline-flex;
         margin-right: 5em;
         align-items: center;
         font-weight: bold;
         text-transform: uppercase;
-    }
-    p{
-      margin-right: 15em;
-      vertical-align: middle;
-      font-weight: bolder;
-      text-transform: capitalize;
-      font-size: 1.5em;
-      font-family: -apple-system, BlinkMacSystemFont,
-       'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
-        'Open Sans', 'Helvetica Neue', sans-serif
     }
     a:hover, a:focus{
         color: darkblue;
@@ -34,4 +25,18 @@ export const NavBar = styled.div `
     a:visited {
         color: green;
     }
+`;
+
+export const Logo = styled.span`
+        display: flex;
+        flex-direction: column;
+        margin-right: 3em;
+        justify-content: left;
+        font-weight: bolder;
+        text-transform: capitalize;
+        font-size: 1.5em;
+        font-family: -apple-system, BlinkMacSystemFont,
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+        'Open Sans', 'Helvetica Neue', sans-serif
+    
 `;

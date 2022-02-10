@@ -1,16 +1,15 @@
 import React from 'react'
 import Link from 'next/link'
-import { NavBar } from './NavBarIndexStyles'
+import { NavBar, Logo } from './NavBarIndexStyles'
+
 
 export const NavBarIndex = () => {
     return (
         <NavBar>
-
+     
             <ul>
                 <li>
-                    <Link href="/">
-                        <a><p>Xessive Observer</p></a>
-                    </Link>
+                    <Logo>Xessive Observer</Logo>
                 </li>
                 <li>
                     <Link href="/">
