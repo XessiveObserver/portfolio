@@ -5,15 +5,18 @@ const AgendaContainer = styled.div`
     background-color: aliceblue;
     display: flex;
     flex-wrap: wrap;
+    
+
 `;
 
 const VisionStatement = styled.div`
     flex: 1;
+    margin: 2em;
+    border-radius: 0.8em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
      0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 0.8em;
     color: darkblue;
-    margin: 3em;
+   
      h2{
         text-align: center;
     }
@@ -26,10 +29,12 @@ const VisionStatement = styled.div`
 `;
 const MissionStatement = styled.div`
     flex: 1;
+    margin: 2em;
+    border-radius: 0.8em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
      0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 0.8em;
-    margin: 3em;
+ 
+  
     width: auto;
     color: darkblue;
      h2{

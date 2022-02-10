@@ -13,9 +13,9 @@ const AboutLeftHero = styled.div`
      h1{
         text-align: left;
         color: white;
-        font-size: 3em;
+        font-size: 4em;
     }
-    h3{
+    h2{
         color: green;
     }
     p{  
@@ -38,9 +38,9 @@ export const AboutHero = () => {
     return (
         <AboutHeroContainer>
             <AboutLeftHero>
-            <p>
+           
             <h1>About Me</h1>
-            <h3>Hi, I am Xessive Observer.</h3>A full stack web developer from <em><b>Uganda</b></em>,
+            <h2>Hi, I am Xessive Observer.</h2> <p>A full stack web developer from <em><b>Uganda</b></em>,
              specializing in <u><b>python</b></u> and <u><b>javascript</b></u>.<br />
              With python I have <u><b> over 3 years of experience</b></u> working with django
              and django restful frame work. <br />
