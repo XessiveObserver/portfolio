@@ -10,7 +10,7 @@ const MiniBio = styled.div`
 `;
 const LeftContent = styled.div`
     flex: 1;
-    margin: 2em;
+    margin: 1.8em;
 
     h1{
         text-align: left;

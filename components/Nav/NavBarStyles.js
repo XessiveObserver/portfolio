@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const NavBar = styled.div`
+export const Nav = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;

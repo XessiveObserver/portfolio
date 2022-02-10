@@ -1,11 +1,11 @@
 import React from 'react'
 import Link from 'next/link'
-import { NavBar, Logo } from './NavBarIndexStyles'
+import { Nav, Logo } from './NavBarStyles'
 
 
-export const NavBarIndex = () => {
+export const NavBar = () => {
     return (
-        <NavBar>
+        <Nav>
      
             <ul>
                 <li>
@@ -23,6 +23,6 @@ export const NavBarIndex = () => {
                 </li>
         
             </ul>
-        </NavBar>
+        </Nav>
     )
 }

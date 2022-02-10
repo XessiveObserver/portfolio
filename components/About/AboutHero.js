@@ -8,8 +8,8 @@ const AboutHeroContainer = styled.div`
     
 `;
 const AboutLeftHero = styled.div`
-    flex: 2;
-    vertical-align: middle;
+    flex: 1;
+    margin: 1.8em;
      h1{
         text-align: left;
         color: white;
@@ -19,7 +19,7 @@ const AboutLeftHero = styled.div`
         color: green;
     }
     p{  
-        margin: 3em;
+        
         text-align: left;
         color: #b3f5dc;
         line-height: 2em;
