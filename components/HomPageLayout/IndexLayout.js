@@ -9,8 +9,7 @@ const MiniBio = styled.div`
 
 `;
 const LeftContent = styled.div`
-    flex: 2;
-    flex-basis: 0.5em;
+    flex: 1;
     margin: 3em;
 
     h1{
