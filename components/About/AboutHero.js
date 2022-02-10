@@ -5,10 +5,10 @@ const AboutHeroContainer = styled.div`
     background-color: #080d57;
     display: flex;
     flex-wrap: wrap;
-    height: auto;
     
 `;
 const AboutLeftHero = styled.div`
+    flex: 2;
     vertical-align: middle;
      h1{
         text-align: left;
@@ -31,7 +31,7 @@ const AboutLeftHero = styled.div`
 `;
 
 const AboutRightHero = styled.div`
-
+    flex: 1
 `;
 
 export const AboutHero = () => {

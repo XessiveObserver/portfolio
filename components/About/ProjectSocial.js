@@ -12,7 +12,6 @@ const ProjectSocialContainer = styled.div`
 
 const ProjectContainer = styled.div`
     flex: 1;
-    display: inline-flex;
     margin: 2em;
     border-radius: 0.5em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
@@ -21,7 +20,7 @@ const ProjectContainer = styled.div`
 
 const SocialContainer = styled.div`
     flex: 1;
-    display: inline-flex;
+   
     margin: 3em;
     border-radius: 0.5em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),

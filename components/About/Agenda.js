@@ -5,9 +5,6 @@ const AgendaContainer = styled.div`
     background-color: aliceblue;
     display: flex;
     flex-wrap: wrap;
-    @media(max-width:600px){
-        flex-direction: coulumn;
-    }
 `;
 
 const VisionStatement = styled.div`
