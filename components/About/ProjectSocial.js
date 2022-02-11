@@ -12,8 +12,9 @@ const ProjectSocialContainer = styled.div`
 
 const ProjectContainer = styled.div`
     flex: 1;
+    text-align: center;
     display: inline-flex;
-    margin: 2em;
+    margin: 0.5em;
     border-radius: 0.5em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
      0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -22,14 +23,14 @@ const ProjectContainer = styled.div`
 const SocialContainer = styled.div`
     flex: 1;
     display: inline-flex;
-    margin: 3em;
+    margin: 0.8em;
     border-radius: 0.5em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
      0 6px 20px 0 rgba(0, 0, 0, 0.19);
 `;
 const Media = styled.div`
     text-align: center;
-    margin: 1.8em;
+    margin: 1em;
 `;
 const MediaName = styled.div`
     font-weight: bolder;
@@ -41,16 +42,18 @@ const MediaName = styled.div`
 
 
 const Project = styled.div`
-    margin: 1em;
+    margin-left: 3em;
     text-align: center;
     align-items: center;
 `;
 const ProjectName = styled.h2`
     color: #020214;
-    margin: 1em;
+    text-align: center;
+    align-items: center;
 `;
 const ProjectImage = styled.div`
-    margin: 1em;
+    margin-bottom: 3em;
+    justify-content:center;
     &:Image{
         border-radius: 0.5em;
     }
