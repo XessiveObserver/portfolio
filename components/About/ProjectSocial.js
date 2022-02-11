@@ -7,6 +7,10 @@ import rockent from './AboutImages/rock-ent.png'
 const ProjectSocialContainer = styled.div`
     display: flex;
     flex-wrap: wrap;
+    max-width: 100%;
+    @media (min-width: 1024px) {
+    flex-wrap: nowrap;
+  }
    
 `;
 

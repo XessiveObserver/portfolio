@@ -5,7 +5,10 @@ const AgendaContainer = styled.div`
     background-color: aliceblue;
     display: flex;
     flex-wrap: wrap;
-    
+    max-width: 100%;
+  @media (min-width: 1024px) {
+    flex-wrap: nowrap;
+  }
 
 `;
 
