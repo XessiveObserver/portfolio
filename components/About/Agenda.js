@@ -1,29 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
-import utils from "./utils/utils";
 
 const AgendaContainer = styled.div`
     background-color: aliceblue;
     display: flex;
     flex-wrap: wrap;
-    max-width: 100%;
-  @media (min-width: 1024px) {
-    flex-wrap: nowrap;
-  }
+    
 
 `;
 
 const VisionStatement = styled.div`
-    @media (min-width: 768px) {
-    width: ${utils(320, 768)};
-    min-height: ${utils(200, 768)};
-    height: 100%;
-  }
-  @media (min-width: 1024px) {
-    width: ${utils(500)};
-    min-height: ${utils(300)};
-    height: 100%;
-  }
     flex: 1;
     margin: 2em;
     border-radius: 0.8em;
@@ -41,16 +27,6 @@ const VisionStatement = styled.div`
     }
 `;
 const MissionStatement = styled.div`
-@media (min-width: 768px) {
-    width: ${utils(320, 768)};
-    min-height: ${utils(200, 768)};
-    height: 100%;
-  }
-  @media (min-width: 1024px) {
-    width: ${utils(500)};
-    min-height: ${utils(300)};
-    height: 100%;
-  }
     flex: 1;
     margin: 2em;
     border-radius: 0.8em;
