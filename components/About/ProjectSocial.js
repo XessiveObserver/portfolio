@@ -1,8 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 import Image from 'next/image';
-import shoppaholix from './AboutImages/shoppaholix.jpg'
-import rockent from './AboutImages/rock-ent.png'
 
 const ProjectSocialContainer = styled.div`
     display: flex;
@@ -67,8 +65,8 @@ export const ProjectSocial = () => {
                     <ProjectImage>
                         <a href="http://rock-news.herokuapp.com">
                             <Image
-                                src={rockent}
-                                alt="API"
+                                src='/about-images/rock-ent.png'
+                                alt="Rock Ent"
                                 width={100}
                                 height={80}
                             />
@@ -81,8 +79,8 @@ export const ProjectSocial = () => {
                     <ProjectImage>
                         <a href="http://shoppaholix.netlify.app">
                             <Image
-                                src={shoppaholix}
-                                alt="API"
+                                src='/about-images/shoppaholix.jpg'
+                                alt="Shoppaholix"
                                 width={100}
                                 height={80}
                             />

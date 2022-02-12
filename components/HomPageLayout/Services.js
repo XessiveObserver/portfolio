@@ -1,11 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 import Image from 'next/image';
-import restapi from './IndexImages/REST-API.png'
-import uiux from './IndexImages/UI-UX.png'
-import seo from './IndexImages/SEO.png'
-import devops from './IndexImages/DevOps.jpg'
-import webops from './IndexImages/WebOps.jpg'
 
 const ServicesContainer = styled.div`
     display: flex;
@@ -47,8 +42,8 @@ export const Services = () => {
                 <ServiceName>API Development</ServiceName>
                 <ServiceImage>
                     <Image
-                        src={restapi}
-                        alt="API"
+                        src="/index-images/REST-API.png"
+                        alt="Rest API"
                         width={200}
                         height={150}
                     />
@@ -58,8 +53,8 @@ export const Services = () => {
                 <ServiceName>UI/UX Design</ServiceName>
                 <ServiceImage>
                     <Image
-                        src={uiux}
-                        alt="API"
+                        src="/index-images/UI-UX.png"
+                        alt="UI/UX Design"
                         width={200}
                         height={150}
                     />
@@ -69,8 +64,8 @@ export const Services = () => {
                 <ServiceName>SEO</ServiceName>
                 <ServiceImage>
                     <Image
-                        src={seo}
-                        alt="API"
+                        src="/index-images/SEO.png"
+                        alt="SEO"
                         width={200}
                         height={150}
                     />
@@ -80,8 +75,8 @@ export const Services = () => {
                 <ServiceName>DevOps</ServiceName>
                 <ServiceImage>
                     <Image
-                        src={devops}
-                        alt="API"
+                        src="/index-images/DevOPs.jpg"
+                        alt="DevOps"
                         width={200}
                         height={150}
                     />
@@ -91,8 +86,8 @@ export const Services = () => {
                 <ServiceName>WebOps</ServiceName>
                 <ServiceImage>
                     <Image
-                        src={webops}
-                        alt="API"
+                        src="/index-images/WebOps.jpg"
+                        alt="WebOps"
                         width={200}
                         height={150}
                     />
