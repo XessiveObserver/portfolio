@@ -2,7 +2,7 @@ import React from 'react'
 
 import styled from 'styled-components'
 
-const SiteFooter = styled.div`
+const SiteFooter = styled.footer`
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,7 +16,7 @@ const SiteFooter = styled.div`
     }
 `;
 
-const Footer = () => {
+export const Footer = () => {
     return (
         <SiteFooter>
             <p>All righst reserved &copy; 2022, Xessive Observer ... powered by Olabs Technologies</p>
@@ -24,4 +24,4 @@ const Footer = () => {
     )
 }
 
-export default Footer
+

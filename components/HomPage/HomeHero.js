@@ -47,7 +47,7 @@ const RightContent = styled.div`
     flex: 1;
 `;
 
-export const IndexLayout = () => {
+export const HomeHero = () => {
     return (
         <MiniBio>
             <LeftContent>
@@ -63,7 +63,7 @@ export const IndexLayout = () => {
                 Full Stack Web developer based in Uganda.
             </h3>
             <button>
-                <Link href="/About/AboutIndex">
+                <Link href="/About">
                     <a> Get In Touch !</a>
                 </Link>
             </button>

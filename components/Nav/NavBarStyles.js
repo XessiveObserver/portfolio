@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
-export const Nav = styled.div`
+export const Nav = styled.nav`
     display: flex;
     flex-direction: column;
     align-items: center;
-    ul{
-        text-align: center;
-        vertical-align: middle;
-    }
-    li{
+    justify-content: space-between;
+    height: 8vh;
+    margin: 2em;
+    
+    a {
         vertical-align: middle;
         text-decoration: none;
         list-style: none;
