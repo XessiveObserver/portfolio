@@ -11,7 +11,7 @@ export const Nav = styled.nav`
         vertical-align: middle;
         text-decoration: none;
         list-style: none;
-        display: inline-flex;
+        display: flex;
         margin-right: 5em;
         align-items: center;
         font-weight: bold;
