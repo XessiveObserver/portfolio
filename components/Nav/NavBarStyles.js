@@ -4,14 +4,16 @@ export const Nav = styled.nav`
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 8vh;
+    height: 12vh;
     margin: 1.2em;
+    vertical-align: middle;
     
     a {
         vertical-align: middle;
         text-decoration: none;
         list-style: none;
-        margin: 5em;
+        display: inline-flex;
+        margin-right: 5em;
         align-items: center;
         font-weight: bold;
         text-transform: uppercase;
@@ -25,7 +27,9 @@ export const Nav = styled.nav`
 `;
 
 export const Logo = styled.span`
-        margin: 3em;
+        display: flex;
+        flex-direction: column;
+        margin-right: 3em;
         justify-content: left;
         font-weight: bolder;
         text-transform: capitalize;
