@@ -8,6 +8,7 @@ const SiteFooter = styled.footer`
     align-items: center;
     height: 10vh;
     background-color: #030e31;
+    justify-content: space-evenly;
     
     p{
         text-align: center;
