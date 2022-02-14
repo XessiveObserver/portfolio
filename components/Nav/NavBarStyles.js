@@ -4,7 +4,6 @@ export const Nav = styled.nav`
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 12vh;
     margin: 1.2em;
     vertical-align: middle;
     
