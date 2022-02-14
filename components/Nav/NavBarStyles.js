@@ -11,8 +11,7 @@ export const Nav = styled.nav`
         vertical-align: middle;
         text-decoration: none;
         list-style: none;
-        display: flex;
-        margin-right: 5em;
+        margin: 5em;
         align-items: center;
         font-weight: bold;
         text-transform: uppercase;
@@ -26,9 +25,7 @@ export const Nav = styled.nav`
 `;
 
 export const Logo = styled.span`
-        display: flex;
-        flex-direction: column;
-        margin-right: 3em;
+        margin: 3em;
         justify-content: left;
         font-weight: bolder;
         text-transform: capitalize;
