@@ -2,7 +2,11 @@ import Head from 'next/head'
 import { HomeHero } from '../components/HomPage/HomeHero'
 import { Services } from '../components/HomPage/Services'
 import TechStack from '../components/HomPage/TechStack'
+import styled from 'styled-components'
 
+const Heading = styled.h1`
+  text-align: center;
+`;
 
 export default function Home() {
   return (
@@ -14,9 +18,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <HomeHero />
-      <h1>Services</h1>
+      <Heading>Services</Heading>
       <Services />
-      <h1>Tech Stack</h1>
+      <Heading>Tech Stack</Heading>
       <TechStack />
     </div>
   )

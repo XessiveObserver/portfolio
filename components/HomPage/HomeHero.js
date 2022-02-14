@@ -41,6 +41,7 @@ const LeftContent = styled.div`
         font-weight: bolder;
         text-decoration: solid;
     }
+    a {text-decoration: none; color: white;}
 `;
 
 const RightContent = styled.div`
