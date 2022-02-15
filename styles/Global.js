@@ -3,7 +3,7 @@
 
 
 import { createGlobalStyle } from "styled-components";
-import px2vw from "./utils";
+import utils from "./utils";
 
 export const Global = createGlobalStyle`
   * {
@@ -17,14 +17,14 @@ export const Global = createGlobalStyle`
 
 
   :root {
-      font-size: ${px2vw(24)};
+      font-size: ${utils(24)};
 
       @media (min-width: 768px) {
-        font-size: ${px2vw(18)};
+        font-size: ${utils(18)};
       }
 
       @media (min-width: 1024px) {
-        font-size: ${px2vw(16)};
+        font-size: ${utils(16)};
       }
     }
 `;

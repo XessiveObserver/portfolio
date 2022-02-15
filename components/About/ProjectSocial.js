@@ -44,6 +44,11 @@ const Media = styled.div`
     margin: 1em;
     a{
         text-decoration: none;
+        color: #0c3b66;
+    }
+
+    a:hover {
+        color: #051d49;
     }
     @media (min-width: 1024px) {
             font-size: 1.5rem;
@@ -51,10 +56,10 @@ const Media = styled.div`
 `;
 const MediaName = styled.div`
     font-weight: bolder;
-    font-size: 1.5em;
     color: darkgreen;
     text-align: center;
     margin: 1em;
+    display: inline-flex;
     @media (min-width: 1024px) {
             font-size: 1.1rem;
   }
@@ -95,6 +100,11 @@ const ProjectName = styled.h2`
     margin: 1em;
     a {
         text-decoration: none;
+        color: #0c3b66;
+        display: inline-flex;
+    }
+    a:hover{
+        color: #062030;
     }
     @media (min-width: 1024px) {
             font-size: 1.5rem;

@@ -51,7 +51,7 @@ const VisionStatement = styled.div`
 
         margin: 2em;
         @media (min-width: 1024px) {
-            font-size: 1.1rem;
+            font-size: 1.2rem;
   }
     }
 `;
@@ -91,7 +91,7 @@ const MissionStatement = styled.div`
     p {
         margin: 2em;
         @media (min-width: 1024px) {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
         
     }
 }
